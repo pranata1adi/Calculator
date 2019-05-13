@@ -7,6 +7,7 @@
     tools:context=".HomeActivity">
 
     <EditText
+        android:id="@+id/et1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/silahkan_isi"
@@ -15,6 +16,7 @@
         tools:ignore="TextFields,UnusedAttribute" />
 
     <EditText
+        android:id="@+id/et2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/silahkan_isi"
@@ -28,6 +30,7 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/btnPlus"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -35,6 +38,7 @@
             tools:ignore="ButtonStyle" />
 
         <Button
+            android:id="@+id/btnMinus"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -42,6 +46,7 @@
             tools:ignore="ButtonStyle" />
 
         <Button
+            android:id="@+id/btnKali"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -49,6 +54,7 @@
             tools:ignore="ButtonStyle" />
 
         <Button
+            android:id="@+id/btnBagi"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -57,6 +63,7 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/tvHasil"
         android:gravity="center"
         android:textColor="@color/colorUngu"
         android:textSize="100sp"
