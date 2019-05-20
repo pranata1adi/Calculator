@@ -13,7 +13,7 @@
         android:hint="@string/silahkan_isi"
         android:importantForAutofill="no"
         android:inputType="number"
-        tools:ignore="TextFields,UnusedAttribute" />
+        tools:ignore="UnusedAttribute" />
 
     <EditText
         android:id="@+id/et2"
@@ -64,10 +64,10 @@
 
     <TextView
         android:id="@+id/tvHasil"
-        android:gravity="center"
-        android:textColor="@color/colorUngu"
-        android:textSize="100sp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hasil" />
+        android:gravity="center"
+        android:text="@string/hasil"
+        android:textColor="@color/colorUngu"
+        android:textSize="100sp" />
 </LinearLayout>
